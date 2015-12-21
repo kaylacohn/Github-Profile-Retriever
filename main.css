@@ -1,0 +1,47 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  color: #555;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+}
+
+input {
+  padding: 5px;
+  height: 15px;
+  width: 200px;
+  font-size: 1rem;
+}
+
+button {
+  width: 95px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  background: #92DCE5;
+  border: none;
+  box-shadow: 0 1px 1px 1px rgba(0,0,0, .3)
+}
